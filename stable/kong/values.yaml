@@ -37,7 +37,8 @@ admin:
     # Enable/disable exposure using ingress.
     enabled: false
     # TLS secret name.
-    # tls: kong-admin.example.com-tls
+    # tls: 
+    #   - secretName: kong-admin.example.com-tls
     # Array of ingress hosts.
     hosts: []
     # Map of ingress annotations.
@@ -73,7 +74,8 @@ proxy:
     # Enable/disable exposure using ingress.
     enabled: false
     # TLS secret name.
-    # tls: kong-proxy.example.com-tls
+    # tls: 
+    #   - secretName: kong-admin.example.com-tls
     # Array of ingress hosts.
     hosts: []
     # Map of ingress annotations.
